@@ -11,3 +11,6 @@ compose-down:
 
 psql:
 	docker exec -t postgres psql -U ${DB_USERNAME} -d travel-manager -h localhost -p 5432
+
+run:
+	./gradlew bootRun
