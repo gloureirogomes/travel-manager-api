@@ -24,6 +24,8 @@ CREATE TABLE travels (
   end_date TIMESTAMP NULL,
   type VARCHAR(15) NOT NULL,
   user_id uuid NOT NULL,
+  updated_at TIMESTAMP NOT NULL DEFAULT now(),
+  created_at TIMESTAMP NOT NULL DEFAULT now(),
   PRIMARY KEY(travel_id),
   CONSTRAINT fk_user FOREIGN KEY(user_id) REFERENCES users(user_id)
 );
