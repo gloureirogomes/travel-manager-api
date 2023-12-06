@@ -9,7 +9,7 @@ version = "0.0.1-SNAPSHOT"
 
 val postgresVersion = "42.7.0"
 val lombokVersion = "1.18.30"
-val junitVersion = "5.10.1"
+val junitVersion = "1.19.3"
 val postgreTestContainerVersion = "1.19.3"
 val flywayVersion = "10.1.0"
 
